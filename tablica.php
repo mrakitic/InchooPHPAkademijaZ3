@@ -1,5 +1,7 @@
 <?php
 
+
+
 function niz($x, $y, &$a)
 {
 $prviBroj = 1;

@@ -43,27 +43,30 @@
 
 
         <?php include_once "tablica.php";
-                $x = $_POST['brojredaka'];
-                $y = $_POST['brojstupaca'];
-
-                niz($x, $y, $a);
-                echo "<table class='tablica' border='1'>";
-                    for ($i = 0; $i < $x; $i++) {
-                    echo "<tr>";
-                        for ($j = 0; $j < $y; $j++) {
-                        echo "<td>";
-                            echo ($a[$i][$j]);
-                            echo "</td>";
+        if(isset($_POST['brojredaka']) && isset($_POST['brojstupaca']))
+        {
 
 
-                        }
+            $x = $_POST['brojredaka'];
+            $y = $_POST['brojstupaca'];
+
+            niz($x, $y, $a);
+            echo "<table class='tablica' border='1'>";
+            for ($i = 0; $i < $x; $i++) {
+                echo "<tr>";
+                for ($j = 0; $j < $y; $j++) {
+                    echo "<td>";
+                    echo($a[$i][$j]);
+                    echo "</td>";
 
 
+                }
 
 
-                        echo "</tr>";
+                echo "</tr>";
 
-                    }
+            }
+        }
 
                 ?>
 
