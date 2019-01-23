@@ -41,6 +41,7 @@
 
             <section id="output">
 
+
         <?php include_once "tablica.php";
                 $x = $_POST['brojredaka'];
                 $y = $_POST['brojstupaca'];
@@ -53,7 +54,13 @@
                         echo "<td>";
                             echo ($a[$i][$j]);
                             echo "</td>";
+
+
                         }
+
+
+
+
                         echo "</tr>";
 
                     }

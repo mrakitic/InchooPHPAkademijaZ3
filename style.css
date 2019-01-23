@@ -42,23 +42,35 @@ section#output{
     float:right;
 }
 
+.firstcell{
+    background-color: #6B6B6B;
+}
+
 table,td,tr{
     background: #3F3F41;
 
 
 }
+.cell{
+    text-align: center;
+    border-radius: 5px;
+}
 
 .tablica {
     width: 50%;
-    height: 80%;
+    height: 90%;
     border-color: white;
     border: 3px;
     position: absolute;
-    margin: 20px;
-    padding: 10px;
+    padding: 20px;
     color: white;
-    font-size: 24px;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
 
+}
+
+.pozadinskaBoja{
+    background-color: white;
+    border-radius: 5px;
 }
