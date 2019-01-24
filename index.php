@@ -31,6 +31,7 @@
             </div>
         </form>
     </section>
+    <section id="output">
     <?php
 
     if(isset($_POST['brojredaka']) && isset($_POST['brojstupaca'])):   ?>
@@ -39,7 +40,7 @@
 
         </div>
         <div>
-            <table class="tabli">
+            <table class="tablic">
                 <tbody>
                 <?php
 
@@ -66,27 +67,16 @@
                         }
 
                         $j1 = $j - 1;
-
                         $j2 = $j + 1;
-
                         $i1 = $i - 1;
-
                         $i2 = $i + 1;
-
                         if($a[$i][$j1]-1===$a[$i][$j]){
-
                             echo " td1";
-
                         } else if($a[$i][$j2]-1===$a[$i][$j]){
-
                             echo " td2";
-
                         } else if($a[$i1][$j]-1===$a[$i][$j]){
-
                             echo " td3";
-
                         } else if($a[$i2][$j]-1===$a[$i][$j]){
-
                             echo " td4";
 
                         }?>
@@ -102,5 +92,6 @@
 
     <?php endif;?>
 </main>
+</section>
 </body>
 </html>

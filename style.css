@@ -1,11 +1,6 @@
 h1{
-
     text-align: center;
-
     color: white;
-
-
-
 }
 
 
@@ -15,33 +10,21 @@ html {background-color: #3F3F41;}
 
 
 label{
-
     color: #F1F1F3;
-
     font-size: 30px;
-
 }
 
 
 
 input{
-
     width: 40%;
-
     font-size: 35px;
-
     height: 50px;
-
     background-color: #535355;
-
     color: #F1F1F3;
-
     border-color: #F1F1F3;
-
     border-width: 3px;
-
     text-align: center;
-
     border-radius: 10px;
 
 
@@ -49,21 +32,13 @@ input{
 }
 
 .button{
-
     background-color: #77A930;
-
     border-radius: 5px;
-
     text-align: center;
-
     height: 100px;
-
     width: 60%;
-
     font-size: 270%;
-
     font-weight: bold;
-
     border: none;
 
 }
@@ -71,9 +46,7 @@ input{
 
 
 section#unos{
-
     width:40%;
-
     float:left;
 
 }
@@ -81,9 +54,7 @@ section#unos{
 
 
 section#output{
-
     width:55%;
-
     float:right;
 
 }
@@ -91,7 +62,6 @@ section#output{
 
 
 .firstcell{
-
     background-color: #6B6B6B;
 
 }
@@ -99,19 +69,11 @@ section#output{
 
 
 table,td,tr{
-
     background: #3F3F41;
-
-
-
-
-
 }
 
 .cell{
-
     text-align: center;
-
     border-radius: 5px;
 
 }
@@ -119,27 +81,16 @@ table,td,tr{
 
 
 .tablica {
-
     width: 50%;
-
     height: 90%;
-
     float:right;
-
     border-color: white;
-
     border: 3px;
-
     position: absolute;
-
     padding: 20px;
-
     color: white;
-
     font-size: 50px;
-
     font-weight: bold;
-
     text-align: center;
 
 
@@ -149,9 +100,7 @@ table,td,tr{
 
 
 .pozadinskaBoja{
-
     background-color: white;
-
     border-radius: 5px;
 
 }
@@ -161,7 +110,6 @@ table,td,tr{
 
 
 .table {
-
     border-spacing: 0;
 
 }
@@ -169,21 +117,13 @@ table,td,tr{
 
 
 .td {
-
     text-align: center;
-
     color: white;
-
     height: 30px;
-
     width: 30px;
-
     border: 1px solid white;
-
     border-radius: 5px;
-
     padding: 1px;
-
     position:relative;
 
 }
@@ -193,15 +133,10 @@ table,td,tr{
 
 
 .td1:before {
-
     position:absolute;
-
     left:-18%;
-
     content: "━";
-
     color: #7AB139;
-
     text-align: center;
 
 }
@@ -209,15 +144,10 @@ table,td,tr{
 
 
 .td2:before {
-
     position:absolute;
-
     right:-18%;
-
     content: "━";
-
     color: #7AB139;
-
     text-align: center;
 
 }
@@ -225,21 +155,13 @@ table,td,tr{
 
 
 .td3:before {
-
     position:absolute;
-
     top:-33%;
-
     left:40%;
-
     content: "━";
-
     color: #7AB139;
-
     -ms-transform: rotate(90deg);
-
     -webkit-transform: rotate(90deg);
-
     transform: rotate(90deg);
 
 }
@@ -247,27 +169,19 @@ table,td,tr{
 
 
 .td4:before {
-
     position:absolute;
-
     bottom:-33%;
-
     left:40%;
-
     content: "━";
-
     color: #7AB139;
-
     -ms-transform: rotate(90deg);
-
     -webkit-transform: rotate(90deg);
-
     transform: rotate(90deg);
 
 }
 
 .prviKvadrat{
-    background: lightgrey;
+    background: #545454;
     text-align: center;
     color: white;
     height: 30px;
