@@ -1,78 +1,279 @@
 h1{
+
     text-align: center;
+
     color: white;
-    
+
+
+
 }
+
+
 
 html {background-color: #3F3F41;}
 
+
+
 label{
+
     color: #F1F1F3;
+
     font-size: 30px;
+
 }
+
+
 
 input{
+
     width: 40%;
+
     font-size: 35px;
-    height: 50px;  
+
+    height: 50px;
+
     background-color: #535355;
+
     color: #F1F1F3;
+
     border-color: #F1F1F3;
+
     border-width: 3px;
+
     text-align: center;
+
     border-radius: 10px;
-    
+
+
+
 }
+
 .button{
+
     background-color: #77A930;
+
     border-radius: 5px;
+
     text-align: center;
+
     height: 100px;
+
     width: 60%;
+
     font-size: 270%;
+
     font-weight: bold;
+
     border: none;
+
 }
+
+
 
 section#unos{
+
     width:40%;
+
     float:left;
+
 }
+
+
 
 section#output{
+
     width:55%;
+
     float:right;
+
 }
+
+
 
 .firstcell{
+
     background-color: #6B6B6B;
+
 }
 
+
+
 table,td,tr{
+
     background: #3F3F41;
 
 
+
+
+
 }
+
 .cell{
+
     text-align: center;
+
     border-radius: 5px;
+
 }
+
+
 
 .tablica {
+
     width: 50%;
+
     height: 90%;
+
+    float:right;
+
     border-color: white;
+
     border: 3px;
+
     position: absolute;
+
     padding: 20px;
+
     color: white;
+
     font-size: 50px;
+
     font-weight: bold;
+
+    text-align: center;
+
+
+
+}
+
+
+
+.pozadinskaBoja{
+
+    background-color: white;
+
+    border-radius: 5px;
+
+}
+
+
+
+
+
+.table {
+
+    border-spacing: 0;
+
+}
+
+
+
+.td {
+
+    text-align: center;
+
+    color: white;
+
+    height: 30px;
+
+    width: 30px;
+
+    border: 1px solid white;
+
+    border-radius: 5px;
+
+    padding: 1px;
+
+    position:relative;
+
+}
+
+
+
+
+
+.td1:before {
+
+    position:absolute;
+
+    left:-18%;
+
+    content: "━";
+
+    color: #7AB139;
+
     text-align: center;
 
 }
 
-.pozadinskaBoja{
-    background-color: white;
+
+
+.td2:before {
+
+    position:absolute;
+
+    right:-18%;
+
+    content: "━";
+
+    color: #7AB139;
+
+    text-align: center;
+
+}
+
+
+
+.td3:before {
+
+    position:absolute;
+
+    top:-33%;
+
+    left:40%;
+
+    content: "━";
+
+    color: #7AB139;
+
+    -ms-transform: rotate(90deg);
+
+    -webkit-transform: rotate(90deg);
+
+    transform: rotate(90deg);
+
+}
+
+
+
+.td4:before {
+
+    position:absolute;
+
+    bottom:-33%;
+
+    left:40%;
+
+    content: "━";
+
+    color: #7AB139;
+
+    -ms-transform: rotate(90deg);
+
+    -webkit-transform: rotate(90deg);
+
+    transform: rotate(90deg);
+
+}
+
+.prviKvadrat{
+    background: lightgrey;
+    text-align: center;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
     border-radius: 5px;
+    padding: 1px;
+    position:relative;
 }
